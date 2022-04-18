@@ -1,4 +1,4 @@
-## Todo
+# Todo
 This system consists of an API for a todoList, using CRUD(create,read,update,delete) with HTTP methods, having the functionality to create a new user, create a todo, update the todo, display and remove them.
 
 
@@ -21,29 +21,29 @@ Here are the technologies used in this project.
 
 2 - Use insomnia to make the requisitions
 
-# Functionalities
+## Functionalities
 
-## Creating new users
+### Creating new users
 
 * Create new users, giving as response a status of type 201(createad), if the user already exists it will have a response with a status of type 400(Bad request).
 
-## Creating todo
+### Creating todo
 
 * this post type functionality will create a post as a list containing title, end date, start date, and an ID. if all goes well it returns a 201(created) status and a JSON with the items.
 
-## Show todos
+### Show todos
 
 * This functionality is of type GET and will display to the client the lists created by the user, passing through a middleware that will check if it is an existing account, if not it will return the status 404(not found)
 
-## Update todo
+### Update todo
 
 * allows you to update the name and end date of todo. giving the code 400 (bad request) if the user is non-existent, and returning a JSON if everything is fine.
 
-## Completed task
+### Completed task
 
 * This feature will set the todo to completed, returning the JSON of the task
 
-## Delete todo 
+### Delete todo 
 
 * This functionality of the HTTP delete method, will delete an existing todo, if all goes well it will return a JSON with the todo that remain, otherwise a 404 (Not Found) if the user does not exist
 
