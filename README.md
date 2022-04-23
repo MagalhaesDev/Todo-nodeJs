@@ -13,7 +13,7 @@ Here are the technologies used in this project.
 
 ## Services Used
 
-* Github
+* Github.
 
 ## Getting started
  
@@ -33,7 +33,7 @@ Here are the technologies used in this project.
 
 ### Show todos
 
-* This functionality is of type GET and will display to the client the lists created by the user, passing through a middleware that will check if it is an existing account, if not it will return the status 404(not found)
+* This functionality is of type GET and will display to the client the lists created by the user, passing through a middleware that will check if it is an existing account, if not it will return the status 404(not found).
 
 ### Update todo
 
@@ -41,11 +41,11 @@ Here are the technologies used in this project.
 
 ### Completed task
 
-* This feature will set the todo to completed, returning the JSON of the task
+* This feature will set the todo to completed, returning the JSON of the task.
 
 ### Delete todo 
 
-* This functionality of the HTTP delete method, will delete an existing todo, if all goes well it will return a JSON with the todo that remain, otherwise a 404 (Not Found) if the user does not exist
+* This functionality of the HTTP delete method, will delete an existing todo, if all goes well it will return a JSON with the todo that remain, otherwise a 404 (Not Found) if the user does not exist.
 
 ## Links
   - Repository: https://github.com/MagalhaesDev/Todo-nodeJs
