@@ -17,9 +17,9 @@ Here are the technologies used in this project.
 
 ## Getting started
  
-1 - Run the command yarn in the terminal to download the dependencies
+1 - Run the command yarn in the terminal to download the dependencies.
 
-2 - Use insomnia to make the requisitions
+2 - Use insomnia to make the requisitions.
 
 ## Functionalities
 
