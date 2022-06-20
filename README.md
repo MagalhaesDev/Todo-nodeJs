@@ -4,7 +4,7 @@ This system consists of an API for a todoList, using CRUD(create,read,update,del
 
 ## Technology 
 
-Here are the technologies used in this project.
+Here are the technologies used in this project
 
 * NodeJS 16.14.0
 * Express 4.17.1
